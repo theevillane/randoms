@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josphin Sans', Arial, Helvetica, sans-serif;
+    overflow: -moz-hidden-unscrollable;
+}
+form-1{
+    z-index: 2;
+}
+.form-image{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px 20px 0 0;
+    background-color: var(--primary);
+}
+.form-image svg{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+}
+h1{
+    margin: 0;
+    margin-bottom: 30px;
+    color: #000;
+}
